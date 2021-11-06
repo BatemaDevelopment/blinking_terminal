@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.anim {
+  position: relative;
+  width: 50%;
+}
+
+.anim svg {
+  position: relative;
+  width: 100%;
+}
