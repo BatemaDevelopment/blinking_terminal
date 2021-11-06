@@ -1,4 +1,3 @@
-import anime from 'animejs';
 import $ from 'jquery';
 
 function blink() {
@@ -9,16 +8,9 @@ function blink() {
       .fadeIn(1);
 }
 
-var timesLooped = 0;
+let timesLooped = 0;
 
-while (timesLooped != 10000) {
+while (timesLooped != 9999999999) {
   $(blink);
   timesLooped += 1;
 }
-
-/* anime({
-  targets: 'polyline.unsc',
-  easing: ,
-  direction: 'alternate',
-  loop: true
-}); */
