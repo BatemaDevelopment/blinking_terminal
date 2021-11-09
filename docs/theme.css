@@ -18,3 +18,9 @@ body {
   position: relative;
   width: 100%;
 }
+
+h1 {
+  font-family: monospace;
+  font-size: 35px;
+  color: rgb(0, 255, 0)
+}
