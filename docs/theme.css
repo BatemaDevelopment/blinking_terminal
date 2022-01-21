@@ -27,7 +27,7 @@ body {
 polyline.unsc {
   animation-name: blink;
   animation-duration: 5s;
-  animation-timing-function: linear;
+  animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
 
